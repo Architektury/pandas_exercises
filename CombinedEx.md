@@ -32,8 +32,7 @@ users.set_index('user_id', inplace = True)
 
 
 ```python
-n = 25
-users.head(n)
+users.head(25)
 ```
 
 
@@ -256,8 +255,7 @@ users.head(n)
 
 
 ```python
-n = 10
-users.tail(n)
+users.tail(10)
 ```
 
 
@@ -400,13 +398,13 @@ memory usage: 36.8+ KB
 
 
 ```python
-users.shape[1]
+users.columns
 ```
 
 
 
 
-    4
+   Index(['age', 'gender', 'occupation', 'zip_code'], dtype='object')
 
 
 
